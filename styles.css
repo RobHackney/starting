@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'Goblin';
+  src:url('/Users/Robert/Codecademy/projects/starting/fonts/Goblin/Goblin.ttf.woff') format('woff'),
+      url('/Users/Robert/Codecademy/projects/starting/fonts/Goblin/Goblin.ttf.svg') format('svg'),
+      url('/Users/Robert/Codecademy/projects/starting/fonts/Goblin/Goblin.ttf.eot'),
+      url('/Users/Robert/Codecademy/projects/starting/fonts/Goblin/Goblin.ttf.eot?#iefix') format('embedded-opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Indubitably-NF';
+  src:url('/Users/Robert/Codecademy/projects/starting/fonts/Indubitably-NF/Indubitably-NF.ttf.woff') format('woff'),
+      url('/Users/Robert/Codecademy/projects/starting/fonts/Indubitably-NF/Indubitably-NF.ttf.svg') format('svg'),
+      url('/Users/Robert/Codecademy/projects/starting/fonts/Indubitably-NF/Indubitably-NF.ttf.eot'),
+      url('/Users/Robert/Codecademy/projects/starting/fonts/Indubitably-NF/Indubitably-NF.ttf.eot?#iefix') format('embedded-opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    font-family: 'Goblin', 'Open Sans';
+    margin: 0 10%;
+  }
+  
+  .container {
+    border: 2px solid #a2a2a6;
+    padding: 10px;
+    margin: 10px auto;
+  }
+  
+  .color-container {
+    width: 100%;
+  }
+  
+  .color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+  }
+  
+  .green-yellow {
+    background-color: #adff2f;
+    color: #000; 
+  }
+  
+  .aquamarine {
+    background-color: #7fffd4;
+  }
+  
+  .lawn-green {
+    background-color: #7cfc00;
+  }
+  
+  .sea-green {
+    background-color: #2e8b57;
+    color: #fff; 
+  }
+  
+  .font-panel {
+    width: 45%;
+    display: inline-block;
+  }
+  
+  .font-label {
+    font-size: 20px;
+    text-decoration: underline;
+  }
+  
+  .regular {
+    font-style: normal;
+  }
+  
+  .italic {
+    font-style: italic;
+  }
+  
+  .bold {
+    font-weight: 700;
+  }
+  
+  .goblin-one {
+    font-family: 'Goblin One', 'Open Sans';
+  }
+  
+  .goblin {
+    font-family: 'Goblin', 'Open Sans';
+  }
+  
+  .indubitably-nf {
+    font-family: 'Indubitably-NF', 'Open Sans';
+  }
+  
+  .text-panel h1 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Goblin', 'Open Sans';
+  }
+  
+  .text-panel h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Indubitably-NF', 'Open Sans';
+  }
+  
+  .text-panel p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Indubitably-NF', 'Open Sans';
+  }
